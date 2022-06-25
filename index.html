@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="style.css">
+        <!--=============== FONTS ===============-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital@1&family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+        <title>TasteEat</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <div class="container info">
+            <!--==================== Info ====================-->    
+                    <button class="info__btn btn">
+                        <a href="tel:+123456789">Call - 123 456 789</a>
+                    </button>
+                    <div class="info__logo logo">
+                        <img src="img/logo/Logo.png" alt="Logo">
+                    </div>
+                    <button class="info__btn btn">
+                        <a href="#reservation">Reservation</a>
+                    </button>
+                
+            </div>
+           <!--==================== NAV ====================-->
+           <section class="contact container">
+                <nav class="contact__nav" id="contact__nav">
+
+                    <ul class="contact__nav-menu">
+
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About Us</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#menu" class="nav__link">Our Menu</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#testimonial" class="nav__link">Testimonial</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#blog" class="nav__link">Blog</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Contact Us</a>
+                        </li>
+
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </nav>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bxs-food-menu'></i>
+                </div>
+                
+                <div class="contact__social">
+
+                    <ul class="contact__social-menu">
+
+                        <li class="social__item">
+                            <a href="" class="social__link"><i class='bx bxl-instagram'></i></a>
+                        </li>
+
+                        <li class="social__item">
+                            <a href="" class="social__link"><i class='bx bxl-facebook-circle'></i></a>
+                        </li>
+
+                        <li class="social__item">
+                            <a href="" class="social__link"><i class='bx bxl-twitter'></i></a>
+                        </li>
+
+                        <li class="social__item">
+                            <a href="" class="social__link"><i class='bx bxl-pinterest'></i></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+           </section>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main>
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="container home__content">
+                    <div class="home__desc">
+                        <h1 class="desc__title">Welcome to Restaurant</h1>
+                        <p class="desc__subtitle">The people, food and the prime locations make the perfect place good friends & family to come together and have great time.</p>
+                        <button class="btn desc__btn">View Menu</button>
+                    </div>
+
+                    <div class="home__image">
+                        <img src="img/image/window.png" alt="window" class="image__main">
+                        <img src="img/image/settings.png" alt="settings" class="image__sub">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== About us ====================-->
+            <section class="about" id="about">
+
+                <div class="container about__content">
+                    <div class="about__us">
+
+                        <div class="us__info">
+                            <img src="img/icon/location.svg" alt="location" class="info__image">
+                            <div class="info__description">
+                                <h2 class="description__title">Locate Us</h2>
+                                <h3 class="description__subtitle">Riverside 25, San Diego, California</h3>
+                            </div>
+                        </div>
+
+                        <div class="us__info">
+                            <img src="img/icon/hours.svg" alt="location" class="info__image">
+                            <div class="info__description">
+                                <h2 class="description__title">Open Hours</h2>
+                                <h3 class="description__subtitle">Mon To Fri 9:00 AM - 9:00 PM</h3>
+                            </div>
+                        </div>
+
+                        <div class="us__info">
+                            <img src="img/icon/reserv.svg" alt="location" class="info__image">
+                            <div class="info__description">
+                                <h2 class="description__title">Reservation</h2>
+                                <h3 class="description__subtitle">restaurantate@gmail.com</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="about__story">
+                        <div class="story__image">
+                            <img src="img/image/about.jpg" alt="about">
+                        </div>
+                        <div class="story__rest">
+
+
+                                <div class="block__description">
+                            
+                                    <h2 class="description__title ">The Delicious Story</h2>
+                                    <h3 class="description__subtitle">The people, food and the prime locations make the perfect place for the friends & family to come together and have great time.</h3>
+                                    
+                                </div>
+
+                                <div class="block__description">
+                                    <h2 class="description__title">2018</h2>
+                                    <h3 class="description__subtitle">Plan for this restaurant to deliver healthy food.</h3>
+                                    <h4 class="description__name">Josefine</h4>
+                                    <img src="img/icon/josefine.png" alt="josefine" class="description__image">
+                                </div>
+
+
+                                <div class="block__description">
+                                    <h2 class="description__title">2022</h2>
+                                    <h3 class="description__subtitle">Happily in the fourth year by fulfill the motto.</h3>
+                                </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--==================== MENU ====================-->
+            <section class="menu container" id="menu">
+                <h2 class="menu__title">Menu</h2>
+                <div class="menu__box">
+                    <div class="menu__special">
+                    <div class="special__blog">
+                        <h3 class="special__title">Try Our Special dishes</h3>
+                        <p class="special__desc">Every time you perfectly dine with us, it should happy for great inspired food in an environment designed with individual touches unique to the local area.</p>
+                    </div>
+                        <img src="img/image/special.jpg" alt="special" 
+                        class="special__img">
+                        <button class="special__btn btn">
+                            See all dishes
+                        </button>
+
+                    </div>
+                    <div class="menu__price">
+
+                        <!-- Starters -->
+                        <h3 class="price__title">Starters</h3>
+                        <div class="price__product">
+                            <img src="img/icon/scallops.png" alt="scallops">
+                            <div class="price__desc">
+                                <h2>Raw Scallops from Erquy</h2>
+                                <h3>Shuck the scallop to that used for oysters</h3>
+                            </div>
+                            <p class="price__finish">$40</p>
+                        </div>
+
+                        <div class="price__product">
+                            <img src="img/icon/roll.png" alt="roll">
+                            <div class="price__desc">
+                                <h2>Spring Roll</h2>
+                                <h3>Add oil to a hot pan spring onion whites</h3>
+                            </div>
+                            <p class="price__finish">$20</p>
+                        </div>
+
+                        <div class="price__product">
+                            <img src="img/icon/soup.png" alt="soup">
+                            <div class="price__desc">
+                                <h2>French Onion Soup</h2>
+                                <h3>Wheat flour, apple cider vinegar, bread</h3>
+                            </div>
+                            <p class="price__finish">$25</p>
+                        </div>
+
+                        <div class="price__product">
+                            <img src="img/icon/bruschetta.png" alt="bruschetta">
+                            <div class="price__desc">
+                                <h2>Tomato Bruschetta</h2>
+                                <h3>Bread, olive oil, garlic, black pepper</h3>
+                            </div>
+                            <p class="price__finish">$30</p>
+                        </div>
+
+                         <!-- Main Dish -->
+                        <h3 class="price__title">Main Dish</h3>
+                        <div class="price__product">
+                            <img src="img/icon/salmon.png" alt="salmon">
+                            <div class="price__desc">
+                                <h2>Grilled Salmon with Dill Sauce</h2>
+                                <h3>Brown sugar, salmon fillet, Dijon mustard</h3>
+                            </div>
+                            <p class="price__finish">$40</p>
+                        </div>
+
+                        <div class="price__product">
+                            <img src="img/icon/beef.png" alt="beef">
+                            <div class="price__desc">
+                                <h2>Roast Beef with Vegetablel</h2>
+                                <h3>Green beans, rib eye, olive oil, beef</h3>
+                            </div>
+                            <p class="price__finish">$20</p>
+                        </div>
+
+                        <div class="price__product">
+                            <img src="img/icon/curruy.png" alt="curruy">
+                            <div class="price__desc">
+                                <h2>Marrkesh Vegetetarian Curruy</h2>
+                                <h3>Sweet potato, eggplant, garbanzo bean</h3>
+                            </div>
+                            <p class="price__finish">$25</p>
+                        </div>
+
+                        <div class="price__product">
+                            <img src="img/icon/vegan.png" alt="vegan">
+                            <div class="price__desc">
+                                <h2>Spicy Vegan Potato Curry</h2>
+                                <h3>Coconut milk, beans, potatoes, curry powder</h3>
+                            </div>
+                            <p class="price__finish">$35</p>
+                        </div>
+
+                          <!-- Dessert -->
+                          <h3 class="price__title">Dessert</h3>
+                          <div class="price__product">
+                              <img src="img/icon/apple.png" alt="apple">
+                              <div class="price__desc">
+                                  <h2>Apple Pie with Cream</h2>
+                                  <h3>Whipping cream, egg white, cinnamon</h3>
+                              </div>
+                              <p class="price__finish">$15</p>
+                          </div>
+  
+                          <div class="price__product">
+                              <img src="img/icon/lemon.png" alt="lemon">
+                              <div class="price__desc">
+                                  <h2>Lemon Meringue Pie</h2>
+                                  <h3>Frozen pie crust, meringue, lemon</h3>
+                              </div>
+                              <p class="price__finish">$30</p>
+                          </div>
+
+
+
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--==================== Testimonial ====================-->
+            <section class="testimonial" id="testimonial">
+                <div class="container">
+                    <h2 class="menu__title testimonial__title">testimonial</h2>
+                    <div class="special__blog">
+                        <h3 class="special__title testimonials__title">our clients say</h3>
+                        <p class="special__desc testimonial__desc">We love to hear from customers, so please leave a comment or say hello in an email.</p>
+                    </div>
+                    <div class="swiper">
+                        <div class="testimonial__card swiper-wrapper">
+
+                            <div class="card__user swiper-slide">
+
+                                    <img src="img/icon/Natasha.png" alt="Natasha" class="user__photo">
+                                <div class="user__info">
+                                    <h3 class="user__name">Natasha</h3>
+                                    <h4 class="user__city">Newyork</h4>
+                                </div>
+                                    <p class="user__review">They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy.</p>                        
+                            </div>
+
+                            <div class="card__user swiper-slide">
+
+                                    <img src="img/icon/jack.png" alt="jack" class="user__photo">
+                                <div class="user__info">
+                                    <h3 class="user__name">Jack Sparrow</h3>
+                                    <h4 class="user__city">Salt Lake City</h4>
+                                </div>
+                                    <p class="user__review">I have visited this fantastic restaurant on several occasions, food is absolutely outstanding & attention to detail is in league of its own.</p>                        
+                            </div>                       
+
+
+                            <div class="card__user swiper-slide">
+
+                                    <img src="img/icon/Martin.png" alt="Martin" class="user__photo">
+                                <div class="user__info">
+                                    <h3 class="user__name">Martin</h3>
+                                    <h4 class="user__city">San Diego</h4>
+                                </div>
+                                    <p class="user__review">Perfectly known for its fabulous taste and food. Anywhere your hunger is satisfied. They give best fried chicken and burgers those are yummy.</p>                        
+                            </div>
+                            
+                            <div class="card__user swiper-slide">
+
+                                <img src="img/icon/Natasha.png" alt="Natasha" class="user__photo">
+                                <div class="user__info">
+                                    <h3 class="user__name">Natasha</h3>
+                                    <h4 class="user__city">Newyork</h4>
+                                </div>
+                                <p class="user__review">They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy.</p>                        
+                            </div>
+
+                            <div class="card__user swiper-slide">
+
+                                <img src="img/icon/jack.png" alt="jack" class="user__photo">
+                                <div class="user__info">
+                                    <h3 class="user__name">Jack Sparrow</h3>
+                                    <h4 class="user__city">Salt Lake City</h4>
+                                </div>
+                                <p class="user__review">I have visited this fantastic restaurant on several occasions, food is absolutely outstanding & attention to detail is in league of its own.</p>                        
+                            </div>                       
+                           
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    
+                </div>
+                <img src="img/image/test.jpg" alt="test" class="testimonial__image">
+            </section>
+
+            <!--==================== BLOG ====================-->
+            <section class="blog container" id="blog">
+                <div class="blog__review">
+                    <h2 class="menu__title">Blog</h2>
+                    <h3 class="special__title">Be First Who Read News</h3>
+                        <p class="special__desc">Explore the latest stories about our dishes, offers, <br> events and future plans here.</p>
+                </div>
+                
+                <article class="blog__cards">
+                    <div class="blog__card">
+                        <div class="card__delicious">
+                            <button class="btn card__btn">View More</button>
+                        </div>
+                        
+                        <div class="card__review">
+                            <p class="review__delicious">Delicious March 19, 2022</p>
+                            <h3 class="special__title">The Legend of US Cuisine: The Story of Hungry People</h3>
+                            <p class="special__desc">Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.</p>
+                        </div>
+                    </div>
+
+                    <div class="blog__card">
+                        <div class="card__cooking">
+                            <button class="btn card__btn">View More</button>
+                        </div>
+                        
+                        <div class="card__review">
+                            <p class="review__delicious">Cooking March 19, 2022</p>
+                            <h3 class="special__title">The Most Popular Delicious Food of Mediterranean Cuisine</h3>
+                            <p class="special__desc">Strategies on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+           <!--  /*=============== ReserVation ===============*/ -->
+           <section class="reservation" id="reservation">
+                <div class="reservation__block">
+                    <div class="block__registration">
+                        <h2 class="registration__title">
+                            reservation
+                        </h2>
+                        
+                        <h3 class="registration__subtitle">
+                            Book Your Table
+                        </h3>
+                        <form action="" class="reservation__form">
+                            <input type="text" placeholder="Name" class="form__field">
+                            <input type="email" placeholder="Email" class="form__field">
+                            <input type="number" placeholder="Persons" class="form__field">
+                            <input type="time"  class="form__field">
+                            <input type="date"  class="form__field">
+                        </form>
+                        <input type="submit" class="btn btn-reserv" placeholder="">
+                    </div>   
+                </div>
+           </section>
+
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__block">
+                    <p>#TheTastEat</p>
+                    <img src="img/logo/Logo.png" alt="Logo">
+                    <div class="block__hours">
+                        <h2 class="hours__title">Working Hours</h2>
+                        <p class="hours-work">Mon – Fri: <span>7.00am – 6.00pm</span></p>
+                        <p class="hours-work">Mon – Fri: <span>7.00am – 6.00pm</span></p>
+                        <p class="hours-work">Mon – Fri: <span>7.00am – 6.00pm</span></p>
+                    </div>
+                </div>
+                <p class="designed">© Copyright - TastEat | Designed by VictorFlow - Powered by Webflow</p>
+            </div>
+        </footer>
+        <!--=============== swiper ===============-->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="main.js"></script>
+    </body>
+</html>
