@@ -726,14 +726,14 @@ h1,h2,h3{
 
 .card__delicious {
   position: relative;
-  background-image: url(..img/image/blog__delicious.jpg);
+  background-image: url('..img/image/blog__delicious.jpg');
   filter: invert(0.2);
   background-position: center; 
   height: 384px;
 }
 
 .card__cooking {
-  background-image: url(..img/image/Cooking.jpg);
+  background-image: url('..img/image/Cooking.jpg');
   filter: invert(0.2);
   background-position: center; 
   height: 384px;
@@ -789,7 +789,7 @@ h1,h2,h3{
 /*=============== ReserVation ===============*/
 .reservation__block {
   position: relative;
-  background-image: url(..img/image/reservation.jpg);
+  background-image: url('..img/image/reservation.jpg');
   max-width: 1440px;
   height: 997px;
   padding: 5vw 6vw;
