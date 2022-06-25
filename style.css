@@ -789,7 +789,7 @@ h1,h2,h3{
 /*=============== ReserVation ===============*/
 .reservation__block {
   position: relative;
-  background-image: url(../img/image/reservation.jpg);
+  background-image: url(..img/image/reservation.jpg);
   max-width: 1440px;
   height: 997px;
   padding: 5vw 6vw;
