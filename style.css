@@ -1,7 +1,6 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
   
   /*========== Colors ==========*/
   --first-color: #40464F;
@@ -727,14 +726,14 @@ h1,h2,h3{
 
 .card__delicious {
   position: relative;
-  background-image: url(../img/image/blog__delicious.jpg);
+  background-image: url(..img/image/blog__delicious.jpg);
   filter: invert(0.2);
   background-position: center; 
   height: 384px;
 }
 
 .card__cooking {
-  background-image: url(../img/image/Cooking.jpg);
+  background-image: url(..img/image/Cooking.jpg);
   filter: invert(0.2);
   background-position: center; 
   height: 384px;
